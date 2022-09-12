@@ -1,0 +1,51 @@
+.section9 {
+  background-image: url("../../../assets/img/back.png");
+  padding-top: 95px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &__container {
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+
+  &__inner {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  &__btns {
+    margin-top: 34px;
+
+    input {
+      font-family: 'Roboto', sans-serif;
+      background: #FFFFFF;
+      border-radius: 27.5px 0px 0px 27.5px;
+      border: 0;
+      padding: 12px 128px 12px 20px;
+    }
+
+    button {
+      font-family: 'Roboto', sans-serif;
+      background: #6F2CFF;
+      border-radius: 0px 27.5px 27.5px 0px;
+      border: 0;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 21px;
+      text-align: center;
+      color: #FFFFFF;
+      padding: 10px 40px;
+      
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

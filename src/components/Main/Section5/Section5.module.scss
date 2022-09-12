@@ -1,0 +1,21 @@
+.section5 {
+  padding-top: 94px;
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 58px;
+  }
+
+  &__content {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 95px;
+    padding-bottom: 150px;
+  }
+}

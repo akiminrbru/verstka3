@@ -1,0 +1,21 @@
+.section10 {
+  text-align: center;
+  padding-bottom: 40px;
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 29px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #1C1C1C;;
+  }
+
+  &__images {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}

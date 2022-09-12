@@ -1,0 +1,46 @@
+.card {
+  width: 460px;
+  height: 200px;
+  background: #17002E;
+  border-radius: 8px 10px 10px 8px;
+
+  padding-left: 30px;
+
+  &__image {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+
+    p {
+      font-family: 'Roboto', sans-serif;
+      display: inline;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: #FFFFFF;
+    }
+  }
+
+  &__text1 {
+    margin-top: 14.75px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 380px;
+  }
+
+  &__text2 {
+    display: inline-block;
+    margin-top: 33px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+  }
+}
